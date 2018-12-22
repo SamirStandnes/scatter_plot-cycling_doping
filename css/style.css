@@ -1,0 +1,44 @@
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  background-color: white;
+  margin-top: 50px;
+  background-color: #bbbbbb;
+  text-align: center;
+}
+
+#legend {
+  font-size: 15px;
+  stroke: solid;
+}
+
+#title {
+  font-size: 25px;
+  color: #bbbbbb;
+  fill: #09264a;
+}
+#mini-title {
+  font-size: 15px;
+  font-style: italic;
+  fill: white;
+}
+
+.dot {
+  opacity: 1;
+  cursor: pointer;
+  border: solid;
+}
+
+#tooltip {
+  background-color: #bbbbbb;
+  color: white;
+  padding: 4px 6px 4px 6px;
+  font-size: 10px;
+  text-align: left;
+  border: solid 0.5px;
+}
+
+
+#x-axis,
+#y-axis {
+  color: #09264a;
+}
